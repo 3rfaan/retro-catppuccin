@@ -1,0 +1,84 @@
+/*
+
+██╗    ██╗ █████╗ ██╗   ██╗██████╗  █████╗ ██████╗ 
+██║    ██║██╔══██╗╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+██║ █╗ ██║███████║ ╚████╔╝ ██████╔╝███████║██████╔╝
+██║███╗██║██╔══██║  ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+╚███╔███╔╝██║  ██║   ██║   ██████╔╝██║  ██║██║  ██║
+ ╚══╝╚══╝ ╚═╝  ╚═╝   ╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+
+Waybar Config File by Arfan Zubi
+
+*/
+
+* {
+    font-family: 'BigBlueTermPlus Nerd Font', sans-serif;
+    font-size: 15px;
+    min-height: 0;
+}
+
+window#waybar {
+    color: #FFF;
+    background: #1E66F5;
+    border: 2px solid #1E66F5;
+}
+
+#system,
+#keyboard,
+#hardware {
+    margin: 5px;
+    padding: 0 10px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+#window {
+    font-weight: bold;
+}
+
+#clock {
+    color: #FFF;
+    font-weight: bold;
+}
+
+#workspaces {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#workspaces button {
+    margin: 2px;
+    color: #FFF;
+    border: none;
+    border-radius: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+#workspaces button.active {
+    color: #FFF;
+    font-weight: bold;
+    background-color: #1E66F5;
+    transition: all 0.3s ease-in-out;
+}
+
+#workspaces button.focused {
+    background-color: #1E66F5;
+}
+
+#workspaces button:hover {
+    box-shadow: inherit;
+    text-shadow: inherit;
+    background: #1E66F5;
+    border: none;
+    color: #FFF;
+}
+
+#keyboard-state {
+    margin-right: 7px;
+}
+
+#custom-wlogout {
+    margin: 2px 2px 2px 7px;
+    padding: 0 15px;
+    background-color: #1E66F5;
+    color: #FFF;
+}
