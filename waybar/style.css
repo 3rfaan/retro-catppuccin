@@ -28,7 +28,7 @@ window#waybar {
 #hardware {
     margin: 5px;
     padding: 0 10px;
-    border: 2px solid rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.7);
 }
 
 #window {
@@ -57,7 +57,7 @@ window#waybar {
     color: #FFF;
     font-weight: bold;
     background-color: #1E66F5;
-    border: 2px solid #FFF;
+    border: 2px solid rgba(255, 255, 255, 0.7);
 }
 
 #workspaces button.focused {
