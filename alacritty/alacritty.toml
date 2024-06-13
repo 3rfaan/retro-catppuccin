@@ -21,7 +21,7 @@ resize_increments = true
 
 [font]
 normal = { family = "BigBlueTermPlus Nerd Font", style = "Regular" }
-size = 13
+size = 12
 
 [cursor]
 style = { blinking = "On" }
