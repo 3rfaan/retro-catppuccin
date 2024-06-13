@@ -42,8 +42,8 @@
         "format-icons": {
             "headphone": "",
             "default": [
-                "",
-                ""
+                " ",
+                " "
             ]
         },
         "scroll-step": 1,
