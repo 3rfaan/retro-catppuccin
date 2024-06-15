@@ -215,7 +215,7 @@ $ swapon /dev/<swap_partition>
 For a minimal system download and install these packages:
 
 ```
-$ pacstrap -K /mnt base base-devel linux linux-firmware e2fsprogs dhcpcd networkmanager sof-firmware git neovim man-db man-pages texinfo
+$ pacstrap -K /mnt base base-devel linux linux-firmware networkmanager sof-firmware git neovim man-db man-pages texinfo
 ```
 
 ℹ️ If you are installing Arch Linux on a computer with **ARM architecture** add the following to the above `pacstrap` command:
@@ -500,7 +500,7 @@ $ sudo systemctl enable dhcpcd
 ### Bluetooth
 
 ```
-$ sudo pacman -S bluez bluez-utils blueman
+$ sudo pacman -S bluez bluez-utils
 $ sudo systemctl enable bluetooth
 ```
 
@@ -546,12 +546,16 @@ $ timedatectl set-ntp true
 $ sudo pacman -S hyprland hyprpaper hyprlock hypridle
 ```
 
+```
+$ yay -S wlogout
+```
+
 - _hyprland_: A compositor for Wayland
 - _hyprpaper_: Set wallpaper in Hyprland
+- _hyprlock_: Lockscreen
 - _hypridle_: DPMS, turning screen off after timeout period
 
 - _wlogout_: Menu for logging out, rebooting, shutting down, etc
-- _hyprlock_: Lockscreen
 
 ⚠️ _Caution:_ If you don't have an NVIDIA graphics card you have to delete the environment variables concerning NVIDIA in _~/.config/hyprland/hyprland.conf_ later when configuring the system!
 
