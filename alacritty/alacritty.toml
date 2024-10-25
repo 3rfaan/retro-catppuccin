@@ -9,8 +9,8 @@
 # Alacritty Config File by Arfan Zubi
 
 
+[general]
 import = ["~/.config/alacritty/catppuccin-latte.toml"]
-
 live_config_reload = true
 
 [window]
