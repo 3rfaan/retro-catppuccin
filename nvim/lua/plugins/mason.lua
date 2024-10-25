@@ -16,7 +16,6 @@ require("mason-lspconfig").setup({
     ensure_installed = {
         "bashls",
         "clangd",
-        "csharp_ls",
         "cssls",
         "dotls",
         "eslint",
@@ -27,7 +26,7 @@ require("mason-lspconfig").setup({
         "rust_analyzer",
         "sqlls",
         "taplo",
-        "tsserver",
+        "ts_ls",
         "yamlls",
     },
     automatic_installation = true,
